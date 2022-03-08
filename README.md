@@ -8,6 +8,6 @@ A C++ STM32 HAL library can handle MFRC522(or RC522 RFID module).
 
 
 ## Please Read Before Use
-This library runs in blocking mode.
-SPI instructions are not implemented using IT or DMA and also uses `HAL_Delay()`.
-Using in ISR is not recommended.
+This library runs in blocking mode.  
+SPI instructions are not implemented using IT or DMA and also uses `HAL_Delay()`.  
+Using in ISR is not recommended.  
